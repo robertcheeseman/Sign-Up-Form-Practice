@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(16, 16, 19);
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    height: 50%;
+    width: 40%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+form {
+    background-color: blue;
+}
