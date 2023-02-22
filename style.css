@@ -1,5 +1,8 @@
 body {
-    background-color: rgb(16, 16, 19);
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .container {
@@ -14,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(73, 73, 73);
+    background-color: rgb(35, 35, 35);
     color: white;
     height: 50%;
     width: 40%;
@@ -23,5 +26,20 @@ body {
 }
 
 form {
-    background-color: blue;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.inputbox {
+    height: 20px;
+    width: 40%;
+    position: relative;
+    bottom: 7px;
+}
+
+button {
+    width: 20%;
+    height: 10%;
+    position: relative;
+    left: 40%;
 }
